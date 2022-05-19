@@ -1,11 +1,20 @@
 // Assignment code here
 function generatePassword(){
- 
-var upperCase = ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz");
-var randomPassword = upperCase[Math.floor(Math.random() * upperCase.length)]
- 
-return randomPassword
+  var userInput = window.prompt("How many characters between 8-128?");
+  var randomAllPw = "";
+  var  randomAll= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%^&*";
+  
+    if (userInput < 8 || userInput > 128){
+      randomAll = window.alert("try again");
+    }
+
+  for (var i = 0; i < userInput; i++)
+    randomAllPw += randomAll.charAt(Math.floor(Math.random() * randomAll.length));
+
+  return randomAllPw;
 }
+
+
 
 //generatePassword()
 
