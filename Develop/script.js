@@ -52,7 +52,7 @@ function generatePassword(){
 }
 else if (userInput1 < 8 || userInput1 > 128) {
   window.alert("please try again")
-  password = "I'm a crazy chicken!";
+  password = "I'm a crazy chicken! Try again :)";
       return password;
   
 }
