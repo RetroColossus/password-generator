@@ -29,7 +29,7 @@
    
 
    ## Screenshot of Project
-   ![screenshot of portfolio project]()
+   ![screenshot of portfolio project](https://github.com/RetroColossus/password-generator/blob/main/assets/images/crazy.chicken.JPG)
 
    ## Project Link:
 
