@@ -4,7 +4,7 @@
 
   ## Code used: HTLM, CSS, and Javascript.
 
-  ## Using the confirm method:
+  ## Using the Confirm Method:
 
    * captured user input as a true or false statement when the user cklicked "ok" or "cancel"
    * used the true or false statements in conditons and ran them through a "for" loop
